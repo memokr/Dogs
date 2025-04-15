@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct DogsApp: App {
+    @State private var viewModel: DogViewModel = .init()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(viewModel)
         }
     }
 }
