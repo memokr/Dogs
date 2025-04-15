@@ -7,7 +7,7 @@ A simple iOS app that fetches and displays random dog images using the [Dog CEO 
 - Fetches list of available dog breeds from the Dog CEO API
 - Fetches random dog images from the Dog CEO API
 - Error handling and loading states
-- Search by breed locally without any network requests.
+- Search by breed locally without any network requests
 
 ## Screenshots
 
